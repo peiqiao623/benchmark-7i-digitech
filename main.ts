@@ -55,7 +55,7 @@ basic.forever(function () {
     } else if (0 > hunger) {
         hp += -1
     } else {
-    	
+        hp += money
     }
     if (0 > money) {
         basic.showString("Game Over")
